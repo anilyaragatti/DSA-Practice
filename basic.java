@@ -1,29 +1,26 @@
-public class basic {
+ public class basic {
 
-   public static int binary(int numbers[],int key){
-      int start = 0;int end = numbers.length-1;
-      while (start<=end) {
-         int mid  = (start+end)/2;
+   public static void reverse(int numbers[]){
+      int first=0; int last=numbers.length-1;
+      while (first<last) {
+         int temp = numbers[first];
+         numbers[first]=numbers[last];
+         numbers[last]=temp;
 
-         if(numbers[mid]==key){
-            return mid;
-         }
-         if(numbers[mid]<=key){
-            start=mid+1;
-         }else{
-            end=mid-1;
-         }
+         first++;
+         last--;
          
       }
-      return -1;
-   }
-
-   public static void main(String[] args) {
-      int numbers[] = {2,4,6,8,10,12,14,16,18,20};
-      int key = 8;
-      int result = binary(numbers, key);
-      System.out.println(result);
-
       
    }
-}
+ 
+   public static void main(String[] args) {
+      int numbers[] = {2,4,8,10};
+       reverse(numbers);
+
+       for(int i=0;i<numbers.length;i++){
+         System.out.print(numbers[i]+" ");
+       }
+ System.out.println(" ");
+   }
+ }

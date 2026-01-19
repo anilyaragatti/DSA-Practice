@@ -1,8 +1,8 @@
 package Arrays;
 
-public class prefixSum {
+public class prefixSum {  
 
-    public static void  prefixSum(int numbers[]){
+    public static void  calculatePrefixSum(int numbers[]){
         int curSum=0;
         int maxSum=Integer.MIN_VALUE;
         int prefix[] = new int[numbers.length];
@@ -27,7 +27,7 @@ public class prefixSum {
 
     public static void main(String[] args) {
         int numbers[] = {2,4,6,8,10};
-        prefixSum(numbers);
+        calculatePrefixSum(numbers);
     }
     
 }

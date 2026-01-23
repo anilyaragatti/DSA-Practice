@@ -1,7 +1,7 @@
 package Arrays;
 
 public class trapedRainwater {
-    public static int trapedRainwaterr(int height[]) {
+    public static int trapedRainwaterr(int height[]) { // O(n)
         // calculate left max boundary - array
         int leftMax[] = new int[height.length];
         leftMax[0] = height[0];

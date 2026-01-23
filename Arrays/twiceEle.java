@@ -14,7 +14,7 @@ public class twiceEle {
     }
 
     public static void main(String[] args) {
-        int number[] = {1,2,3};
+        int number[] = {1,2,3,4};
         if(twiceElement(number)){
             System.out.println("TRUE");
         }

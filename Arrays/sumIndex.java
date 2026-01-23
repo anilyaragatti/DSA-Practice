@@ -3,14 +3,22 @@ package Arrays;
 public class sumIndex {
 
     public static void sumIndexofarr(int number[],int target){
-        for(int i=0;i<number.length;i++){
-            for(int j=i;j<number.length;j++){
-                if((number[i]+number[j]) == target){
-                    System.out.println("("+i+","+j+")");
-
-                }
+        int left=0, right=number.length-1;
+        int[] res = new int[2];
+        while (left<right) {
+            int sum=number[left]+number[right];
+            if(sum==target){
+                res[0]=left+1;
+                res[1]=right+1;
+                return res;
+            }else if(sum<target){
+                left++;
+            }else{
+                right--;
             }
+            
         }
+        
     }
 
     public static void main(String[] args) {

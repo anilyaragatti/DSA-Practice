@@ -1,3 +1,4 @@
+package loop;
 import java.util.*;
 public class terminal {
 

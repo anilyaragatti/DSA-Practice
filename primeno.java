@@ -1,27 +1,23 @@
-
-import java.util.*;
+import GPT.largest;
 
 public class primeno {
+ 
 
+    public static int seclarge(int number[]){
+      int largest=Integer.MIN_VALUE;
+      int seclargest = Integer.MIN_VALUE;
+      for(int i=0;i<number.length;i++){
+        if(number[i]>largest){
+            seclargest=largest;
+            largest=number[i];
+        }else if(number[i]>seclargest && number[i]!=largest ){
+            seclargest=number[i];
+        }
+      } return seclargest;
+    }
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        boolean isprime = true;
-
-        for (int i = 2; i < n - 1; i++) {
-            if (n % 1 == 0) {
-                isprime = false;
-            }
-        }
-        if (isprime == true) {
-            System.out.println("n is prime number");
-        } else {
-            System.out.println("n is even number");
-            System.out.println("n is even number");
-
-        }
-        sc.close();
+        int number[] = {2,3,4,6,8,10,11};
+        System.out.println(seclarge(number));
 
     }
-}
+ }

@@ -10,6 +10,8 @@ public class removD {
                 j++;
             }
          }
+
+         
          return j;
 
     }

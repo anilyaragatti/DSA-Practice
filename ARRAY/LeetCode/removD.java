@@ -6,7 +6,7 @@ public class removD {
         int j=1;
         for(int i=1;i<numbers.length;i++){
             if(numbers[i]!=numbers[j-1]){
-                numbers[j]=numbers[i];cl
+                numbers[j]=numbers[i];
                 j++;
             }
          }

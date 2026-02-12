@@ -17,7 +17,7 @@ public class removD {
     }
     
     public static void main(String[] args) {
-        int numbers[] = {0,0,1,1,1,2,2,3,4};
+        int numbers[] = {0,0,1,1,1,2,2,3,4,5};
         int res=removeElement(numbers);
 
         for(int i=0;i<res;i++){

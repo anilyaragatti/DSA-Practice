@@ -1,13 +1,11 @@
 package strings;
 
- 
-
 public class palindrome {
 
-    public static boolean checkPalindrome(String str){
-        for(int i=0;i<str.length()/2;i++){
-            int n=str.length();
-            if(str.charAt(i)!=str.charAt(n-1-i)){
+    public static boolean checkPalindrome(String str) {
+        for (int i = 0; i < str.length() / 2; i++) {
+            int n = str.length();
+            if (str.charAt(i) != str.charAt(n - 1 - i)) {
                 return false;
 
             }
@@ -16,8 +14,8 @@ public class palindrome {
     }
 
     public static void main(String[] args) {
-        String str = "racepar";
+        String str = "shreya";
         System.out.println(checkPalindrome(str));
     }
-    
+
 }

@@ -38,7 +38,8 @@ public class shortestPath {
 
     
     public static void main(String[] args) {
-        String str = "WNEENESENNN";
+        // String str = "WNEENESENNN";
+        String str = "NS";
         System.out.println(checkShortestPath(str));
     }
     

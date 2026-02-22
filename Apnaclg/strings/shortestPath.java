@@ -39,8 +39,35 @@ public class shortestPath {
     
     public static void main(String[] args) {
         // String str = "WNEENESENNN";
-        String str = "NS";
-        System.out.println(checkShortestPath(str));
+        // System.out.println(checkShortestPath(str));
+
+
+        String s1="deeksha";
+        String s2="deeksha";
+        String s3= new String("deeksha");
+
+        if(s1==s2){
+            System.out.println("the strings are equel");
+        }else{
+            System.out.println("the strings are not equls ");
+        }
+
+        
+        if(s1==s3){
+            System.out.println("the strings are equel");
+        }else{
+            System.out.println("the strings are not equls ");
+        }
+
+         
+        if(s1.equals(s3)){
+            System.out.println("the strings are equel");
+        }else{
+            System.out.println("the strings are not equls ");
+        }
+
+
+
     }
     
 }

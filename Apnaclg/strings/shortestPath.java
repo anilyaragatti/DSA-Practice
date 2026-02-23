@@ -47,23 +47,23 @@ public class shortestPath {
         String s3= new String("deeksha");
 
         if(s1==s2){
-            System.out.println("the strings are equel");
+            System.out.println("the strings are equals");
         }else{
             System.out.println("the strings are not equls ");
         }
 
         
         if(s1==s3){
-            System.out.println("the strings are equel");
+            System.out.println("the strings are equals");
         }else{
-            System.out.println("the strings are not equls ");
+            System.out.println("the strings are not equals ");
         }
 
          
         if(s1.equals(s3)){
-            System.out.println("the strings are equel");
+            System.out.println("the strings are equal");
         }else{
-            System.out.println("the strings are not equls ");
+            System.out.println("the strings are not equals ");
         }
 
 

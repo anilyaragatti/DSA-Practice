@@ -14,7 +14,7 @@ public class palindrome {
     }
 
     public static void main(String[] args) {
-        String str = "shreya";
+        String str = "dad";
         System.out.println(checkPalindrome(str));
     }
 

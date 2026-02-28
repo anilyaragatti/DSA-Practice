@@ -1,10 +1,8 @@
 package arrayList;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+ import java.util.ArrayList;
 
-import LeetCode.sortColour;
-
+ 
 public class reverseAl {
 
     public static void main(String[] args) {

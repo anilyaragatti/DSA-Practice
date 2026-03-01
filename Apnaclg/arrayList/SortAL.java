@@ -20,6 +20,11 @@ public class SortAL {
 
         Collections.sort(list ,Collections.reverseOrder());
         System.out.println(list);
+
+        //
+
+
+
     }
     
 }

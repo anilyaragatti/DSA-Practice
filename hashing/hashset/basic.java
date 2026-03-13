@@ -18,7 +18,8 @@ public class basic {
         System.out.println(set);
         System.out.println(set.contains(1));
 
-        Iterator<Integer> it = set.iterator();
+        Iterator<Integer> it = set.iterator(); 
+        // System.out.println(it.hasNext());
         while (it.hasNext()) {
             System.out.println(it.next());
             

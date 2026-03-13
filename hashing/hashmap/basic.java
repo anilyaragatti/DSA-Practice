@@ -2,8 +2,7 @@ package hashing.hashmap;
 
 import java.util.HashMap;
 
-import LeetCode.sortColour;
-
+ 
 public class basic {
     public static void main(String[] args) {
         HashMap<String,Integer> map = new HashMap<>();

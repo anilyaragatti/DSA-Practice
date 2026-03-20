@@ -1,6 +1,7 @@
 package hashing.hashmap;
 
 import java.util.HashMap;
+import java.util.Map;
 
  
 public class basic {
@@ -9,7 +10,6 @@ public class basic {
        //insertion
         map.put("indea", 13);
         map.put("us", 19);
-
         System.out.println(map); 
         map.put("indea", 130); //  here it update the old key,value
         System.out.println(map);
@@ -21,8 +21,26 @@ public class basic {
         }else{
             System.out.println("the key is not present in the key");
         }
-
         System.out.println(map.get("us"));
+
+
+
+        //iterations in maps 
+        for(Map.Entry<String,Integer> e:map.entrySet()){
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+        }
+
+
+
+
+
+
+
+
+
+
+
 
     }
     

@@ -15,6 +15,7 @@ public class small {
     public static void main(String[] args) {
         int number[] = {-8, -10, -3, -6};
         System.out.println("the smallest element is : "+ smallest(number));
+        
     }
     
 }

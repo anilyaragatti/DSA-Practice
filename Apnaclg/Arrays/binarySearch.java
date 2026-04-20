@@ -24,7 +24,7 @@ public class binarySearch {
 
     public static void main(String[] args) {
         int numbers[] = {2,4,6,8,10,12,14};
-        int key = 15;
+        int key = 7;
         System.out.println("index for key is "+ binary(numbers, key));
     }
 
@@ -43,7 +43,7 @@ public class binarySearch {
             }
             
         }
-        return -1;
+        return start;
 
     }
     

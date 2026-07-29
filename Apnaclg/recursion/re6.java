@@ -1,0 +1,34 @@
+public class re6 {
+    // public static boolean isSorted(int arr[], int i) {
+    //     if (i == arr.length - 1) {
+    //         return true;
+    //     }
+    //     if (arr[i] > arr[i + 1]) {
+    //         return false;
+    //     }
+
+    //     return isSorted(arr, i + 1);
+
+    // }
+
+    public static boolean isSorted(int arr[], int i){
+        if(i==arr.length-1){
+            return true;
+        }
+        if(arr[i]>arr[i+1]){
+            return false;
+        }
+        return isSorted(arr, i+1);
+    }
+
+    public static void main(String[] args) {
+        int[] arr = { 1, 2, 3, 4, 5, 6, 71, 8, 9 };
+        int i = 0;
+        // System.out.println(isSorted(arr, i));
+        if (!isSorted(arr, i)) {
+            System.out.println("the arr is unsorted ");
+        } else {
+            System.out.println("the arr is sorted");
+        }
+    }
+}
